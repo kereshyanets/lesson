@@ -1,0 +1,5 @@
+sec_user = int(input('введите колличество секунд: '))
+hour = (sec_user // 3600)
+min = (sec_user % 3600 //60)
+sec = (sec_user % 3600 % 60)
+print(hour,":",min,":",sec)
